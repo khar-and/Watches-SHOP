@@ -2,19 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Watches-SHOP/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Watches-SHOP/assets/favicon-f67dd845.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>The Watch Spot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
     <script type="module" crossorigin src="/Watches-SHOP/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/Watches-SHOP/assets/index-490b2983.css">
+    <link rel="stylesheet" href="/Watches-SHOP/assets/index-53cdbe0f.css">
   </head>
   <body>
     <header class="header">
   <div class="header-wrap container">
     <div class="header-logo">
       <a class="header-logo-link" href="./index.html">
-        <img src="/img/header/logo.png" alt="logo" />
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAS+SURBVHgBzZlLThtBEIarg8VTAhuxQ0LOAZDImgXOCZIb4BuQA4Bi5wQhEmKDZOcEyYqtwwqxggVLFBsBCxZgg3g/XKma6TbDpMfu6R4bf1JpesbQ039XdfVjALoEIqbJvpJVyOroUyUrkWWh3wkIUI2P4iv0K9S4OdnrppSg36BGLRp4QccX6BekCBey8NZwIzA+zVC5Ao4IcIQaUaVLFuKBmne/F0LUwJJ34AD6mScL8VAiMHDPtghvAYnIYTKoMONEkQZLrDwiX2ibOjF0r0KM6+xtBkN/dk7CC+Fnf6FX0MvymAzNiPscdBv0U20Vk0PnGedUbCKkhMmLaOL/gnIQE+PBTpUv0SUP8cGQKVQK1s1lnyEmRhMi+kuIXfAzS5JEZbAG+BNkAwwx9cgvsBOBEWWFCBl3Gt7f36cvLy+XIAYdPYL+7F2A+PyR15yqKvC+cIjxe+Dp6Qlvb2+BTNzc3DTII+8JI6+k2v0oQ6oAdvwkq5EtQKDB8CJCjRF8fHwUd3d3ngAyTwwJST88PHyS9XQk1eF321RYo94sc4E6Ywt8ryiPtDzw/PwsKIy44UgN58YLKQakmDwYCokcI2i3IPRoNBrfA7e/5TUYQtxI/js4Pz8XbPV6ne+Rr9KQ7hfW19dzJu8UESLmwM9SNiJgbW2tvry8PCnr4iTBS/0J9gCFiwodr+dHR0dhenpaWxd5y6tyaGio3Tjh3z6+04jgF/8CS3Z2dmBiYiKzsbHhzQWcQskDqzQGxMXFBfe0UD3O16mpqci6SAAbtyfbxlb5HbrQsg6pq6srODo6gkwmA+l0einw/DuFT4NDh66gQmlsbMxrrANlNRZfCSFv5MFhKb2/v88ikIWQ5ba3t3P8nMoNavxPFhHwBudWcKBGVlQ3LSEy1VqfNfHgPTs7Q+kN5ZVWfTTBldVAZo9wSPH4cKAY3BoHPWIdUszh4SGPDSFFIJVZyAIN6Cz/Pj8/v0ehtSWzE8zOzoIDqyqkFJ4QGVJ5sIQyEVxfXysvCBY0OTnpeWdwcLC1Fz89PS1yeM3MzMD4+DhYUgPdJI3+Eece+vsMrVEarPPEFcXJyQkeHBzg8fExcniRKOTlhuTVXnxlZaXCY8SBOZ06o9VvqVSao57d5ZgeHh6GkZERz7hMz5CuQj3jLDQwMBBeV32jUCjIjsuD/X6/qOqxEsJsbm5WqNELUoiQV+RyQADPG7p/5wVghgtodw7G8LInMs11Wmu1oHgvUuMrIW94glKplG6DFFwccvguynIW7PgISVGr1XZpwDZphuY9Azab3g5Vt1XV7sWl2VCAJCEBS7TUUAJM0ImMi9GaL9bZL/rZh8+eON7DA9r5HFkDLwg/mJwJxzpplHvoH+o2+BN0h6LLwXZb0J93VNigphx+Zhta3f+ahfaD1pQq9uLjD76cxAcHcxOTGdxMHnoFvnjFJPXGobcfSNE/zE6i94NU0eEbia0QHvTnqPeIrcAcWGL96U2m4lVILvVyqv0Dljg1AgMnJI51tl0QmuD0MVR6RR2g6Y5DTUluQWgLvv7ObjM28tAvUGO+YHzqfSVCQY0qxxBRxYgta19AjStgZy/w3/R2rrAB/TFTxpePptz4SrcF/AOef50QMZQGugAAAABJRU5ErkJggg==" alt="logo" />
       </a>
       <p class="header-logo-text">thewatchspot</p>
     </div>
@@ -38,7 +49,7 @@
     </div>
     <button class="mob-mnu-btn" type="button" data-menu-open>
       <svg width="20" height="14">
-        <use href="/public/icons.svg#icon-mob-menu"></use>
+        <use href="/Watches-SHOP/assets/icons-dda8f9dc.svg#icon-mob-menu"></use>
       </svg>
     </button>
   </div>
@@ -47,13 +58,13 @@
     <div class="mob-menu-wrap">
       <div class="mob-logo">
         <a class="header-logo-link" href="/index.html">
-          <img src="/img/header/logo.png" alt="logo" />
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAS+SURBVHgBzZlLThtBEIarg8VTAhuxQ0LOAZDImgXOCZIb4BuQA4Bi5wQhEmKDZOcEyYqtwwqxggVLFBsBCxZgg3g/XKma6TbDpMfu6R4bf1JpesbQ039XdfVjALoEIqbJvpJVyOroUyUrkWWh3wkIUI2P4iv0K9S4OdnrppSg36BGLRp4QccX6BekCBey8NZwIzA+zVC5Ao4IcIQaUaVLFuKBmne/F0LUwJJ34AD6mScL8VAiMHDPtghvAYnIYTKoMONEkQZLrDwiX2ibOjF0r0KM6+xtBkN/dk7CC+Fnf6FX0MvymAzNiPscdBv0U20Vk0PnGedUbCKkhMmLaOL/gnIQE+PBTpUv0SUP8cGQKVQK1s1lnyEmRhMi+kuIXfAzS5JEZbAG+BNkAwwx9cgvsBOBEWWFCBl3Gt7f36cvLy+XIAYdPYL+7F2A+PyR15yqKvC+cIjxe+Dp6Qlvb2+BTNzc3DTII+8JI6+k2v0oQ6oAdvwkq5EtQKDB8CJCjRF8fHwUd3d3ngAyTwwJST88PHyS9XQk1eF321RYo94sc4E6Ywt8ryiPtDzw/PwsKIy44UgN58YLKQakmDwYCokcI2i3IPRoNBrfA7e/5TUYQtxI/js4Pz8XbPV6ne+Rr9KQ7hfW19dzJu8UESLmwM9SNiJgbW2tvry8PCnr4iTBS/0J9gCFiwodr+dHR0dhenpaWxd5y6tyaGio3Tjh3z6+04jgF/8CS3Z2dmBiYiKzsbHhzQWcQskDqzQGxMXFBfe0UD3O16mpqci6SAAbtyfbxlb5HbrQsg6pq6srODo6gkwmA+l0einw/DuFT4NDh66gQmlsbMxrrANlNRZfCSFv5MFhKb2/v88ikIWQ5ba3t3P8nMoNavxPFhHwBudWcKBGVlQ3LSEy1VqfNfHgPTs7Q+kN5ZVWfTTBldVAZo9wSPH4cKAY3BoHPWIdUszh4SGPDSFFIJVZyAIN6Cz/Pj8/v0ehtSWzE8zOzoIDqyqkFJ4QGVJ5sIQyEVxfXysvCBY0OTnpeWdwcLC1Fz89PS1yeM3MzMD4+DhYUgPdJI3+Eece+vsMrVEarPPEFcXJyQkeHBzg8fExcniRKOTlhuTVXnxlZaXCY8SBOZ06o9VvqVSao57d5ZgeHh6GkZERz7hMz5CuQj3jLDQwMBBeV32jUCjIjsuD/X6/qOqxEsJsbm5WqNELUoiQV+RyQADPG7p/5wVghgtodw7G8LInMs11Wmu1oHgvUuMrIW94glKplG6DFFwccvguynIW7PgISVGr1XZpwDZphuY9Azab3g5Vt1XV7sWl2VCAJCEBS7TUUAJM0ImMi9GaL9bZL/rZh8+eON7DA9r5HFkDLwg/mJwJxzpplHvoH+o2+BN0h6LLwXZb0J93VNigphx+Zhta3f+ahfaD1pQq9uLjD76cxAcHcxOTGdxMHnoFvnjFJPXGobcfSNE/zE6i94NU0eEbia0QHvTnqPeIrcAcWGL96U2m4lVILvVyqv0Dljg1AgMnJI51tl0QmuD0MVR6RR2g6Y5DTUluQWgLvv7ObjM28tAvUGO+YHzqfSVCQY0qxxBRxYgta19AjStgZy/w3/R2rrAB/TFTxpePptz4SrcF/AOef50QMZQGugAAAABJRU5ErkJggg==" alt="logo" />
         </a>
         <p class="header-logo-text">thewatchspot</p>
       </div>
       <button type="button" class="mob-menu-close" data-menu-close>
         <svg width="24" height="24">
-          <use href="/public/icons.svg#icon-x"></use>
+          <use href="/Watches-SHOP/assets/icons-dda8f9dc.svg#icon-x"></use>
         </svg>
       </button>
     </div>
@@ -73,62 +84,17 @@
   </div>
 </header>
 
+    <main>
+      
+      
+      
+          
+      
+    </main>
+    ENOENT: no such file or directory, open '/home/runner/work/Watches-SHOP/Watches-SHOP/src/partials/footer.html'
+    ENOENT: no such file or directory, open '/home/runner/work/Watches-SHOP/Watches-SHOP/src/partials/modal.html'
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/Watches-SHOP/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/Watches-SHOP/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
-  </div>
-</section>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
 </html>
