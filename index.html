@@ -5,13 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/Watches-SHOP/assets/favicon-f67dd845.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Watch Spot</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     
-    <script type="module" crossorigin src="/Watches-SHOP/assets/index-355d9e99.js"></script>
-    <link rel="stylesheet" href="/Watches-SHOP/assets/index-706c0b9b.css">
+    <script type="module" crossorigin src="/Watches-SHOP/assets/index-94c5cd5c.js"></script>
+    <link rel="stylesheet" href="/Watches-SHOP/assets/index-f467fd93.css">
   </head>
   <body>
     <!-- Andriy -->
@@ -80,8 +88,8 @@
 
     <main>
       <!-- Oksana -->
-      <section>
-  <h1>Welcome to our collection of premium watches</h1>
+      <section class="hero">
+  <h1 class="hero-title">Welcome to our collection of premium watches</h1>
   <!------------------------ SLIDER START---------------->
   <!-- Slider main container -->
   <div class="swiper">
@@ -92,7 +100,7 @@
         <img
           src="../img/hero/main-slider1.jpg"
           alt="Slide 1"
-          width="226"
+          width="266"
           height="190"
         />
       </div>
@@ -100,7 +108,7 @@
         <img
           src="../img/hero/main-slider2.jpg"
           alt="Slide 2"
-          width="226"
+          width="266"
           height="190"
         />
       </div>
@@ -108,7 +116,7 @@
         <img
           src="../img/hero/main-slider3.jpg"
           alt="Slide 3"
-          width="226"
+          width="266"
           height="190"
         />
       </div>
@@ -116,7 +124,7 @@
         <img
           src="../img/hero/main-slider4.jpg"
           alt="Slide 4"
-          width="226"
+          width="266"
           height="190"
         />
       </div>
@@ -124,20 +132,20 @@
         <img
           src="../img/hero/main-slider5.jpg"
           alt="Slide 5"
-          width="226"
+          width="266"
           height="190"
         />
       </div>
     </div>
-    <!-- If we need navigation buttons -->
-    <div class="swiper-buttons">
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
   </div>
   <!------------------- SLIDER END ----------------->
   <p>
@@ -164,10 +172,33 @@
     </main>
     <!--   Iryna -->
     
-      <!--   Svyatoslav -->
-      
-      
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--   Svyatoslav -->
     
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    </script>
   </body>
 </html>
