@@ -1,4 +1,37 @@
+.hero {
+    background-color: #141414;
+}
+
+.hero-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
+    padding: 76px 20px 60px;
+}
+
+/* -------------------------SLIDER----------------------- */
 .swiper {
     width: 266px;
     height: 252px;
+
+    margin-left: 20px;
+}
+
+.swiper-wrapper {
+    width: 266px;
+    height: 200px;
+}
+
+.swiper-slide {
+    padding: 5px 20px;
+}
+
+.swiper-button-prev {
+    width: 32px;
+    height: 32px;
 }
